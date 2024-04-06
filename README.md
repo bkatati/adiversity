@@ -15,7 +15,7 @@ is code for execution of the examination of the soil and maize *Aspergillus* sec
 
 # *3) Phylotree-Asp_soil+maize.nwk* #
 
-Is a newick (nwk) file of the phylogenetic tree of the triphasic characterised non-clonal per field, maize (*n* = 33) and soil (*n* = 25), isolates after dereplication of the 148 isolates. The tree's was constructed from aligned species' sequences using software MEGA7 with evolutionary history inferred using the Maximum Likelihood method based on the Tamura-Nei model (Tamura & Nei, 1993). For this construction, cleaned then deduplicated fasta sequences for maize and soil isolates were combined, aligned, trimmed, then a phylogenetic tree constructed in MEGA7 from the alignment. The tree was then saved as a "nwk" file with branches" for use in this R code "Diversity.R."
+Is a newick (nwk) file of the phylogenetic tree of the triphasic characterised non-clonal per field, maize (*n* = 33) and soil (*n* = 25), isolates after dereplication of the 148 isolates. The tree was constructed from aligned species' sequences using software MEGA7 with evolutionary history inferred using the Maximum Likelihood method based on the Tamura-Nei model (Tamura & Nei, 1993). For this construction, cleaned then deduplicated fasta sequences for maize and soil isolates were combined, aligned, trimmed, then a phylogenetic tree constructed in MEGA7 from the alignment. The tree was then saved as a "nwk" file with branches" for use in this R code "Diversity.R."
 
 # *4) "Tree-Asp_soil+maize+Refs.nwk"* #
 
@@ -23,7 +23,7 @@ the file is a 'nwk' file of the phylogenetic tree of soil and maize isolates (*n
 
 # *5) "Triphasic.csv"* #
 
-'the file is csv and contains assigned traits per soil/maize isolates. The traits are phenotypic as metabolic (Aflatoxin-B, Aflatoxin-G, Cyclopiazonic acid production) and morphological (large sclerotia production, colony colour). Polymorphism is based on the calmodulin gene sequences (CAMseq). The metabolites are qualitatively assigned using thin layer chromatography as produced (value = '1') or not produced (value = '0', upon HPLC verification). Production of conspicous large sclerotia is assigned '1,' and green colour assigned '1.' The ecological niches are Soil (value '1') and maize (value '0') according to location from which isolate was obtained.
+the file is 'csv' and contains assigned traits per soil/maize isolates. The traits are phenotypic as metabolic (Aflatoxin-B, Aflatoxin-G, Cyclopiazonic acid production) and morphological (large sclerotia production, colony colour). Polymorphism is based on the calmodulin gene sequences (CAMseq). The metabolites are qualitatively assigned using thin layer chromatography as produced (value = '1') or not produced (value = '0', upon HPLC verification). Production of conspicous large sclerotia is assigned '1,' and green colour assigned '1.' The ecological niches are Soil (value '1') and maize (value '0') according to location from which isolate was obtained.
 
 # *6) "Diversity_model.xlsx"* #
 
