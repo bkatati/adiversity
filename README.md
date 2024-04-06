@@ -5,11 +5,11 @@ DOI: 10.1007/s12550-024-00532-7
 
 Support files to manuscript:
 
-# *1) "Fasta_soil&maize+Refs.txt"* # 
+# *1) "Fasta_Soil&Maize+Refs.txt"* # 
 
 is 'txt' file containing denoised nucleotide sequences of 2018/2019 per-field-unique *Aspergillus* section *Flavi* isolates (nonclonal, *n* = 58). It also contains the reference isolate sequences (long codes) obtained from (Frisvad et al. 2019, DOI: 10.1016/j.simyco.2018.06.001) as reference isolates for estimation of correctness of assignement of species taxonomy (supplemental figure S3). The sequences are aligned and used for generation of 'nwk' files.
 
-# *2) "Diversity.R"* #
+# *2) "Diversity_Asp_Soil&Maize.R"* #
 
 is code for execution of the examination of the soil and maize *Aspergillus* section *Flavi* species diversity.
 
@@ -21,10 +21,10 @@ Is a newick (nwk) file of the phylogenetic tree of the triphasic characterised n
 
 the file is a 'nwk' file of the phylogenetic tree of soil and maize isolates (*n* = 58) including reference isolates for estimation of correctness of assignement of species taxonomy. The tree's was similarly constructed by maximum likelihood (MEGA v7). The 'nwk' file is run in the R code "Diversity.R."
 
-# *5) "triphasic.csv"* #
+# *5) "Triphasic.csv"* #
 
 'the file is csv and contains assigned traits per soil/maize isolates. The traits are phenotypic as metabolic (Aflatoxin-B, Aflatoxin-G, Cyclopiazonic acid production) and morphological (large sclerotia production, colony colour). Polymorphism is based on the calmodulin gene sequences (CAMseq). The metabolites are qualitatively assigned using thin layer chromatography as produced (value = '1') or not produced (value = '0', upon HPLC verification). Production of conspicous large sclerotia is assigned '1,' and green colour assigned '1.' The ecological niches are Soil (value '1') and maize (value '0') according to location from which isolate was obtained.
 
-6) "Diversity_model.xlsx"
+# *6) "Diversity_model.xlsx"* #
 
 contains the parameters to fit the model 'y=f(x),' which explains response of aflatoxin levels in maize to species ratio between *A. minisclerotigenes* and *A. parasiticus* (Equation-1, Materials and Methods).
